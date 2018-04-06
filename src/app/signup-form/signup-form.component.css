@@ -1,0 +1,12 @@
+.container-fluid{
+    height: 91%;
+    background: linear-gradient(180deg, rgba(135, 232, 0, 0.64), rgba(83, 71, 152, 0.75));
+    z-index:-1;
+}
+
+p.h5.text-center.mb-4 {
+    margin-top: 135px;
+    font-family: 'Coiny', cursive;
+    font-size: 50px;
+    color: #e4cdcd;
+}

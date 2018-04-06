@@ -1,0 +1,25 @@
+.online{
+    background-color: yellow;
+}
+
+.busy{
+    background-color: red;
+}
+
+.offline{
+    background-color: #888;
+}
+
+.status{
+    border: 1px solid black;
+    display: inline-block;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 50%;
+    margin: 5px 1px 1px 2px;
+}
+
+.list-group {
+    margin-bottom: 10px;
+    width: 185px;
+}

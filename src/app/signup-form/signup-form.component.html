@@ -1,0 +1,38 @@
+<div class="container-fluid py-4">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <!--Register form-->
+          <form>
+            <p class="h5 text-center mb-4">Sign up</p>
+
+            <div class="md-form">
+              <i class="fa fa-user prefix grey-text"></i>
+              <input class="form-control" id="orangeForm-user" type="text" name="displayName" [(ngModel)]="displayName" maxlength="12"
+                required mdbActive>
+              <label for="orangeForm-user">Display name</label>
+            </div>
+
+            <div class="md-form">
+              <i class="fa fa-envelope prefix grey-text"></i>
+              <input class="form-control" id="orangeForm-email" type="email" name="email" [(ngModel)]="email" required mdbActive>
+              <label for="orangeForm-email">Enter your email address</label>
+            </div>
+
+            <div class="md-form">
+              <i class="fa fa-lock prefix grey-text"></i>
+              <input class="form-control" id="orangeForm-pass" type="password" name="password" [(ngModel)]="password" required mdbActive>
+              <label for="orangeForm-pass">Your password</label>
+            </div>
+
+              <div class="text-center">
+                  <button (click)="signUp()" type="submit" class="btn btn-deep-orange waves-light btn-lg float-right" mdbRippleRadius>Sign up</button>
+              </div>
+          </form>
+          <!--/Register form-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

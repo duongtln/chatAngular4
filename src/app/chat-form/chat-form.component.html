@@ -1,0 +1,23 @@
+<!--
+<div class="mainContent col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+<form class="form-inline">
+  <div class="form-group">
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+      <input type="text" class="form-control ip" [(ngModel)]="message" (keydown)="handleSubmit($event)" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+      <button type="button" class="btn btn-success" (click)=send()>Send</button>
+    </div>
+  </div>
+</form>
+</div>
+-->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 wrap">
+  <div class="md-form">
+    <input class="form-control" type="text" placeholder="Type a message" [(ngModel)]="message" (keydown)="handleSubmit($event)" style="width:90%;margin-left: 25px;" >
+  </div>
+  <div>
+    <button type="button" class="btn btn-outline-primary" (click)=send()>Send</button>
+  </div>
+</div>
+

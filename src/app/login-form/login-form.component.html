@@ -1,0 +1,26 @@
+<div class="container-fluid loginform">
+  <div class="row">
+    <div class="col-md-12"> 
+        <div class="col-md-6 mx-auto">
+          <!-- form card login -->
+          <p class="h5 text-center mb-4">Sign in</p>
+          <form>
+            <div class="md-form">
+              <i class="fa fa-envelope prefix"></i>
+              <input [(ngModel)]="email" type="email" name="email" id="inputValidationEx" class="form-control form-control-lg rounded-0 validate"
+                required="">
+              <label for="inputValidationEx" data-error="Wrong" data-success="Right">Type your email</label>
+            </div>
+            <br>
+            <div class="md-form">
+              <i class="fa fa-lock prefix"></i>
+              <input type="password" [(ngModel)]="password" id="inputValidationEx2" class="form-control validate" required="" autocomplete="new-password"
+                [ngModelOptions]="{standalone: true}">
+              <label for="inputValidationEx2" data-error="Wrong" data-success="Right">Type your password</label>
+            </div>
+            <button (click)="login()" type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">Login</button>
+          </form>
+        </div>
+      </div>
+     </div>
+  </div>

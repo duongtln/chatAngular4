@@ -1,0 +1,28 @@
+.text_user {
+    color: #fdfd2cfa!important;
+}
+
+.text_user:hover {
+    color: #fdfd2ccc!important;
+}
+
+.text-white {
+    font-family: 'Itim', cursive;
+    font-size: 33px;
+    color: #ffffff91!important;
+}
+
+.text-white:hover {
+    color: white!important;
+}
+
+nav.navbar.navbar-dark.py-0.bg-primary.navbar-expand-lg.py-md-0 {
+    height: 55px;
+    margin-top: 0px;
+}
+
+img {
+    width: 75px;
+    height: 45px;
+    margin: 0 10px -5px 0;
+}

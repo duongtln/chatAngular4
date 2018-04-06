@@ -1,0 +1,10 @@
+button.btn.btn-outline-primary {
+    float: right;
+    height: 59px;
+    margin-top: -70px;
+    width: 120px;
+}
+
+.wrap {
+    padding: 0;
+}
